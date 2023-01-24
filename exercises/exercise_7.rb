@@ -12,6 +12,12 @@ puts "----------"
 # Your code goes here ...
 
 
+puts "What is the store name?"
+store_name = num = gets.chomp
+store_7 = Store.create(name: store_name)
+puts store_7.valid?
+puts store_7.errors.messages
+
 
 
 # ### Exercise 7: Validations for both models

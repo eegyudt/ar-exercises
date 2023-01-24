@@ -13,7 +13,7 @@ puts Store.sum("annual_revenue")
 
 puts Store.average("annual_revenue")
 
-puts " Stores iwth 1m+ revenue>>>>>'"
+puts " Stores with 1m+ revenue>>>>>'"
 puts Store.where("annual_revenue > 1000000").count()
 
 # ### Exercise 5: Calculations
